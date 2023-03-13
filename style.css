@@ -1,0 +1,668 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+.Nav {
+    height: 120px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 2px 3px 0 rgb(0 0 0 / 10%);
+}
+
+.Nav_search {
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    width: 468px;
+    display: flex;
+}
+
+.Nav_search i {
+   
+    position: absolute;
+    left: 2%;
+    top: 26%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Nav_search input {
+    
+    height: 34px;
+    width: 100%;
+    border-radius: 30px;
+    border-style: none;
+    text-indent: 30px;
+    background: transparent;
+}
+
+.Nav_search input:focus-visible {
+    outline: none;
+    
+}
+
+.Nav_search-btn {
+    border-style: none;
+    border-radius: 24px;
+    width: 100px;
+    height: 26px;
+    background-color:black;
+    color: #fff;
+    position: absolute;
+    right: 1%;
+    top: 10%;
+    cursor: pointer;
+}
+
+.Nav_cart-content {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.shopping-cart {
+    position: relative;
+    width: 47px;
+    border-radius: 50%;
+    border: 1px solid white;
+    font-size: 26px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    display: flex;
+}
+
+.shopping-cart i {
+}
+
+.Nav_login-signup {
+    color: white;
+}
+
+.Nav_login-signup span:first-child {
+    border-right: 1px white solid;
+    padding-right: 4px;
+}
+
+/* Menu */
+.Nav-menu{
+    background-color:black;
+    height: 30px;
+    
+}
+
+.menu{
+    display: flex;
+    position: relative;
+   
+}
+
+.menu i{
+    position: absolute;
+   font-size: 24px;
+    left: 1%;
+    top:3px;
+    color: white;
+}
+
+.menu li{
+    list-style-type: none;
+    color: white;
+    width: 300px;
+    line-height: 30px;
+    padding: 0 48px;
+    position: relative;
+    
+}
+
+.menu li{
+   
+    cursor: pointer;
+}
+
+.menu li:hover .submenu{
+    display:block;
+}
+
+.submenu{
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    left:0;
+    z-index: 1;
+    background-color: black;
+}
+
+.submenu li{
+   /* border: 0.1px solid black;*/
+   border-bottom: 0.05px solid black; 
+}
+
+.submenu li:hover{
+    background-color: rgb(222, 216, 216);
+    color: black;
+}
+
+.menu ia{
+    position: absolute;
+    left: 180px;
+    top: 1px;
+    font-size: 26px;
+    color: white;
+}
+
+.submenu li{
+    position: relative;
+}
+
+.submenu li ib{
+    position: absolute;
+    right:0;
+    top: 2px;
+    font-size: 24px;
+}
+/* End Menu */
+
+/* Head-picture */
+.slider{
+    margin-top: 1px;
+    padding-top: 50%;
+    background: url(im/itachiboy.jpg) top center / cover no-repeat;
+    position: relative;
+}
+
+ .verse1{
+    position: absolute;
+    width: 10px;
+    bottom: 359px;
+    left: 170px;
+    font-size: 26px;
+} 
+.verse2{
+    position: absolute;
+    width: 10px;
+    bottom: 265px;
+    left: 315px;
+    font-size: 26px;
+} 
+.verse3{
+    width: 10px;
+    position: absolute;
+    bottom: 359px;
+    right:  315px;
+    font-size: 26px;
+} 
+.verse4{
+    width: 10px;
+    position: absolute;
+    bottom:265px;
+    right: 170px;
+    font-size: 26px;
+} 
+
+.verse5{
+    width: 150px;
+    position: relative;
+    bottom: 333px;
+    left: 46%;
+    font-size: 22px;
+}
+
+.verse-letter{
+    color:white;
+  
+}
+
+.verse-name{
+    color: white;
+    position: absolute;
+    left:38px;
+}
+
+.verse-name1{
+    color: white;
+}
+
+/* End Head-picture */
+
+/* Page-Title */
+
+.Home-title{
+    margin: 26px;
+    border-bottom: 1px dashed black;
+    font-size: 20px;
+}
+/* End Page-Title */
+
+
+/* Content-introduce-shop */
+.introduce{
+    text-align: center;
+    height:300px;
+    margin: 0px 350px ;
+    border-bottom: 1px dashed black;
+}
+.name-store{
+    text-align: center;
+    font-size: 24px;
+}
+
+.name-store-feeling{
+    opacity: 0.8;
+    font-size: 20px;
+}
+
+.store-introduce{
+    position: relative;
+    text-align: justify;
+    line-height: 1.5;
+    top: 12px;
+}
+/* End-Content-introduce-shop */
+
+/* Manga1 */
+.manga1{
+    text-align: center;
+    margin: 10px;
+    padding-top: 50% ;
+    position: relative;
+    background: url(im/Narutobaby.jpg) top center / cover no-repeat;
+   
+}
+
+.name-manga1{
+    left: 50%;
+    color:white;
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+}
+
+.introduce-manga1{
+    
+    color: white;
+    opacity: 0.8;
+    position: absolute;
+    top: 50px;
+    left: 5%;
+}
+
+.author-manga1{
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 48%;
+}
+
+.information-manga1{
+    color: white;
+    position: absolute;
+    top: 148px;
+    left: 45%;
+}
+
+/* Manga2 */
+
+/*Big-Div*/
+.row-place-list{
+    position: absolute;
+    left: 1%;
+    bottom: 0%;
+    width: 700px;
+}
+/*End-Big-Div*/
+
+/*Div1-Picture-Manga*/
+.place-list1{
+    position: relative;
+    width: 250px;
+    left: 1%;
+    bottom: 1%;
+
+}
+
+.pic1{
+    position: relative;
+    width: 250px;
+    cursor: pointer;
+}
+
+.pic1:hover{
+    box-shadow: 0px 0px 5px 5px #999999;
+}
+
+.place-list1-sale{
+    background-color: transparent;
+    color: white;
+    padding: 1.01em 16px;
+    position: relative;
+}
+/*End Div1-Picture-Manga*/
+
+/*book-sale*/
+.book-chapter{
+    text-align: left;
+    padding-bottom: 2%;
+}
+
+.publishing-company{
+    text-align: left;
+    padding-bottom: 2%;
+}
+
+.release-date{
+    text-align: left;
+    opacity: 0.8;
+    padding-bottom: 2%;
+}
+
+.btn-buy-book{
+    padding: 12px 18px;
+    font-size: 14px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-buy-book:hover{
+    background-color: gainsboro;
+    color: black;
+    box-shadow: 0px 0px 5px 5px #999999;
+}
+/*End book-sale*/
+
+
+/* Div2 */
+.place-list2{
+    position: absolute;
+    width: 250px;
+    left: 40%;
+    bottom: 0%;
+
+}
+
+.place-list2-sale{
+    background-color:transparent;
+    color: white;
+    padding: 1.01em 16px;
+    position: relative;
+}
+/* End Div2 */
+
+.space{
+    padding-top: 1%;
+    border-bottom: 1px dashed rgb(58, 55, 55);
+}
+
+/* Manga2 */
+.manga2{
+    margin-top: 50px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    /* margin: 10px; */
+    padding-top: 50%;
+    position: relative;
+    background: url(im/OP1.webp) top center / cover no-repeat;
+}
+
+.name-manga2{
+    left: 50%;
+    color:white;
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+}
+
+.introduce-manga2{
+    
+    color: white;
+    opacity: 0.8;
+    position: absolute;
+    top: 50px;
+    left: 5%;
+}
+
+.author-manga2{
+    color: white;
+    position: absolute;
+    top: 108px;
+    left: 50%;
+}
+
+.information-manga2{
+    color: white;
+    position: absolute;
+    top: 148px;
+    left: 45%;
+}
+/* End-Manga2 */
+
+/* Manga3 */
+.manga3{
+    margin-top: 50px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    /* margin: 10px; */
+    padding-top: 50%;
+    position: relative;
+    background: url(im/DB3.png) top center / cover no-repeat;
+}
+
+.name-manga3{
+    left: 50%;
+    color:white;
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+}
+
+.introduce-manga3{
+    
+    color: white;
+    opacity: 0.8;
+    position: absolute;
+    top: 50px;
+    left: 5%;
+}
+
+.author-manga3{
+    color: white;
+    position: absolute;
+    top: 108px;
+    left: 50%;
+}
+
+.information-manga3{
+    color: white;
+    position: absolute;
+    top: 148px;
+    left: 46%;
+}
+/* End-Manga3 */
+
+.manga4{
+    margin-top: 50px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    /* margin: 10px; */
+    padding-top: 50%;
+    position: relative;
+    background: url(im/BL1.jpg) top center / cover no-repeat;
+}
+
+.name-manga4{
+    left: 50%;
+    color:white;
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+}
+
+.introduce-manga4{
+    
+    color: white;
+    opacity: 0.8;
+    position: absolute;
+    top: 50px;
+    left: 5%;
+}
+
+.author-manga4{
+    color: white;
+    position: absolute;
+    top: 108px;
+    left: 50%;
+}
+
+.information-manga4{
+    color: white;
+    position: absolute;
+    top: 148px;
+    left: 45%;
+}
+
+
+.row-place-list1{
+    position: absolute;
+    right: 1px;
+    bottom: 0%;
+    width: 750px;
+}
+
+.place-list1-manga4{
+    position: absolute;
+    width: 250px;
+    right: 40%;
+    bottom: 0%;
+
+}
+
+.place-list2-manga4{
+    position: absolute;
+    width: 250px;
+    right: 3%;
+    bottom: 0%;
+
+}
+
+
+.contact{
+    width: 800px;
+    max-width: 100%;
+    /* patext-align: center;dding: 64px 0 112px; */
+    position: relative;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    
+}
+
+.contact-heading{
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.contact1{
+    width: 50%;
+    float: left;
+    
+}
+
+.contact-information{
+    font-size: 18px;
+    
+}
+
+#location-icon{
+    position: relative;
+    top:2px;
+}
+
+#phone-information{
+    position: relative;
+    top:2px;
+}
+
+#mail-information{
+    position: relative;
+    top:2px;
+}
+
+.contact2{
+    float: left;
+    width: 50%;
+   
+}
+
+.row1{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.row1::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.row1-1{
+    width: 50%;
+    float: left;
+    padding: 0 8px;
+  
+}
+
+.form1{
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.row2{
+    margin-top: 8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.row2::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.row2-1{
+    
+    width: 100%;
+    float: left;
+    padding: 0 8px;
+}
+
+.contact-btn{
+    float: right;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    width: 22%;
+    height: 44px;
+    font-size: 18px;
+}
